@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+
+  db:
+    image: postgres:alpine
+    restart: always
+    container_name: flashCardDatabase
+    ports:
+      - 5438:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
