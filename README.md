@@ -67,6 +67,13 @@ making it even more difficult to debug
 have been able to fix them, but I discovered this bug minutes before submission on a final test
   * React is also showing some errors and warnings in the dev tools on Chrome, however I don't understand what's wrong, nor how to fix them
 
+## Ideal updates to the code
+- I would have created this as a typescript project
+- I would have scaffolded my frontend client with Vite instead of create react app
+- I would include unit tests in the backend with jest and on the front end with cirrus or maybe even react test scripts
+- I would have built the client files and served them on an express server which would implement authentication and authorization logic
+
+
 ## How code works
 
 * My application is a client-served based application. I split the app largely into seperate server and client files
